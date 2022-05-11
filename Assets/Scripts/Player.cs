@@ -7,10 +7,12 @@ public class Player : MonoBehaviour
     Rigidbody2D myBody;
     [SerializeField] float moveSpeed;
     private float inputValue;
+    private Vector2 startPosition;
 
     private void Start()
     {
         myBody = GetComponent<Rigidbody2D>();
+        startPosition = myBody.transform.position;
     }
 
     void FixedUpdate()
@@ -29,5 +31,11 @@ public class Player : MonoBehaviour
         {
             myBody.velocity = Vector2.zero;
         }
+    }
+
+    public void ResetPlayer()
+    {
+        myBody.position = startPosition;
+        myBody.velocity = Vector2.zero;
     }
 }
