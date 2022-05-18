@@ -1,0 +1,16 @@
+.button {
+    height: 80px;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.button:hover {
+    height: 80px;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 40px;
+    background-color: rgb(53, 53, 53);
+}
