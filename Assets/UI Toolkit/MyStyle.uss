@@ -14,3 +14,24 @@
     font-size: 40px;
     background-color: rgb(53, 53, 53);
 }
+
+.button-salir {
+    height: 40%;
+    width: 60%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background-image: url('project://database/Assets/Interfaz/Pantallas%20Inicio.png?fileID=1107124196&guid=722569e38487bca499f5c0255f2dfe7d&type=3#Pantallas Inicio_5');
+    border-left-color: rgba(56, 56, 56, 0);
+    border-right-color: rgba(56, 56, 56, 0);
+    border-top-color: rgba(56, 56, 56, 0);
+    border-bottom-color: rgba(56, 56, 56, 0);
+    border-top-left-radius: 32px;
+    border-bottom-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    background-color: rgba(56, 56, 56, 0);
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}

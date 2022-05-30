@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MyStyle.uss?fileID=7433441132597879392&amp;guid=5a36830b27567f3488b677c43fd43c1e&amp;type=3#MyStyle" />
+    <ui:VisualElement name="Cont-PauseMenu" style="height: 100%; width: 100%; align-items: center; justify-content: center; background-color: rgba(0, 0, 0, 0.49); display: none;">
+        <ui:VisualElement name="MenuPause" style="height: 100%; width: 100%; align-items: center; justify-content: center; background-color: rgb(178, 224, 255); border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0;">
+            <ui:VisualElement name="PauseLogo" style="background-image: url(&apos;project://database/Assets/Interfaz/Pantallas%20Inicio.png?fileID=-1991652621&amp;guid=722569e38487bca499f5c0255f2dfe7d&amp;type=3#Pantallas Inicio_3&apos;); width: 60%; height: 40%; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+            <ui:VisualElement name="Cont-Botones" style="height: 30%; width: 50%; justify-content: center; align-items: center; flex-direction: row;">
+                <ui:Button display-tooltip-when-elided="true" name="Play" class="button" style="height: 40%; background-image: url(&apos;project://database/Assets/Interfaz/Pantallas%20Inicio.png?fileID=1940803945&amp;guid=722569e38487bca499f5c0255f2dfe7d&amp;type=3#Pantallas Inicio_6&apos;); background-color: rgba(56, 56, 56, 0); border-top-left-radius: 47px; border-bottom-left-radius: 47px; border-top-right-radius: 47px; border-bottom-right-radius: 47px; border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); margin-left: 15px; margin-right: 15px; margin-top: 4px; margin-bottom: 4px; width: 60%; padding-left: 15px; padding-right: 15px;" />
+                <ui:Button display-tooltip-when-elided="true" name="Salir" class="button button-salir" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

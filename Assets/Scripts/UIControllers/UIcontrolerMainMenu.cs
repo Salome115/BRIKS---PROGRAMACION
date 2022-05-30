@@ -4,18 +4,19 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
 
-public class UIcontroller : MonoBehaviour
+
+public class UIcontrolerMainMenu : MonoBehaviour
 {
-    Button restartButton;
-    Label msgText;
+    VisualElement root;
+    Button playBotton;
 
     // Start is called before the first frame update
     void Start()
     {
-        VisualElement root = GetComponent<UIDocument>().rootVisualElement;
-        restartButton = root.Q<Button>("Restart");
+        root = GetComponent<UIDocument>().rootVisualElement.Q("Cont-MainMenu"); 
+        playBotton = root.Q<Button>("Play");    
 
-        restartButton.clicked += restartGame;
+        playBotton.clicked += StartGame;
     }
 
     // Update is called once per frame
@@ -24,9 +25,9 @@ public class UIcontroller : MonoBehaviour
         
     }
 
-    void restartGame()
+    void StartGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        root.style.display = DisplayStyle.None;
         Time.timeScale = 1;
     }
 }

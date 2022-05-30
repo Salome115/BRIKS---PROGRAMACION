@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ball
   - DeathBorder
+  - Brick
   layers:
   - Default
   - TransparentFX
